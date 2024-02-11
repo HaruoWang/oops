@@ -4,64 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>選擇結果</title>
+  <link href="/style.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@350&family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="p1">
-    <img src="/img/tasi.jpg" width="100%">
-    <h1>請選擇您的答案：</h1>
-
-    <select id="q1">
-      <option value="A">選項1</option>
-      <option value="B">選項2</option>
-      <option value="C">選項3</option>
-    </select>
-
-    <!-- 下一題按鈕 -->
-    <button id="n1">下一題</button>
+    <div class="head"></div>
+    <img src="/img/yabe-poster.webp">
+      <br>
+    <div id="b1">
+      <button id="b1a">蘇打綠《小情歌》</button>
+        <br>
+      <button id="b1b">Cavetown《Boys Will Be Bugs》</button>
+        <br>
+      <button id="b1c">Owalloil《Garden Balsam》</button>
+        <br>
+      <button id="b1d" style="display: none;">下一題</button>
+    </div>
+    <div class="foot" id="foot1"></div>
   </div>
 
   <div id="p2" style="display: none;">
-    <img src="/img/tasi.jpg" width="100%">
-    <h1>請選擇您的答案：</h1>
-
-    <select id="q2">
-      <option value="A">選項1</option>
-      <option value="B">選項2</option>
-      <option value="C">選項3</option>
-    </select>
-
-    <!-- 下一題按鈕 -->
-    <button id="n2">下一題</button>
+    <div class="head"></div>
+    <img src="/img/yabe-poster.webp">
+      <br>
+    <div id="b2">
+      <button id="b2a">DIZLIKE《Stand Up！Stand Up！》</button>
+        <br>
+      <button id="b2b">Soulfa《Slumber Day》</button>
+        <br>
+      <button id="b2c">康姆士《我不希望你孤單的去面對整個喧囂世界》</button>
+        <br>
+      <button id="b2d" style="display: none;">下一題</button>
+    </div>
+    <div class="foot" id="foot2"></div>
   </div>
 
   <div id="p3" style="display: none;">
-    <img src="/img/tasi.jpg" width="100%">
-    <h1>請選擇您的答案：</h1>
-
-    <select id="q3">
-      <option value="A">選項1</option>
-      <option value="B">選項2</option>
-      <option value="C">選項3</option>
-    </select>
-
-    <!-- 下一題按鈕 -->
-    <button id="n3">下一題</button>
+    <div class="head"></div>
+    <img src="/img/yabe-poster.webp">
+      <br>
+    <div id="b3">
+      <button id="b3a">HONNE, BEKA《Location Unknown ◐》</button>
+        <br>
+      <button id="b3b">Kim Seungmin《Outside your house》</button>
+        <br>
+      <button id="b3c">淺堤《恆春花絮》</button>
+        <br>
+      <button id="b3d" style="display: none;">他的歌單</button>
+    </div>  
+    <div class="foot" id="foot3"></div>  
   </div>
 
   <div id="p4" style="display: none;">
-    <img src="/img/yabe.jpg" width="100%">
-    <!-- 你的答案按鈕 -->
-    <button id="n4">你的答案</button>
+    <div class="head"></div>
+    <img src="/img/yabe.webp">
+    <br>
+    <button id="b4">你的答案</button>
+    <div class="foot" id="foot4"></div>
   </div>
 
   <div id="p5" style="display: none;">
-    <!-- 顯示結果的區域 -->
+    <div class="head"></div>
     <div id="result"></div>
-    <!-- 下載按鈕 -->
-    <button id="download">下載圖片</button>
+    <button id="down">下載</button>
+    <button id="home">回首頁</button>
+    <button id="re">再玩一次</button>
+    <div class="foot" id="foot5"></div>
   </div>
 
-  <!-- 引入您的JavaScript程式碼 -->
   <script src="script.js"></script>
 </body>
 </html>
